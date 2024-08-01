@@ -102,8 +102,11 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color:#edf2f4;
   width: fit-content;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
@@ -118,6 +121,7 @@ a:hover {
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
+
 
 .menu-links li {
   list-style: none;
